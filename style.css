@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  #snake {
+    width: 10px;
+    height: 10px;
+    background: green;
+    position: absolute;
+  }
+  
+  #food {
+    width: 10px;
+    height: 10px;
+    background: red;
+    position: absolute;
+  }
+  
